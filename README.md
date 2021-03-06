@@ -26,7 +26,7 @@ https://www.notion.so/Curso-de-Desenvolvimento-Web-0bf89f9f0dfa4ecead03a237360e5
     pip install -r requeriments-dev.txt
     ```
 
-## Para rodar a apicação é necessário exportar as variáveis do flask para setar como deselvolvimento, depois usar o comando flask run:
+## Para rodar a aplicação é necessário exportar as variáveis do flask para setar como deselvolvimento, depois usar o comando flask run:
 
 Linux e Mac:
 ```sh
