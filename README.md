@@ -50,6 +50,15 @@ Ambiente virtual:
 Framework:
 1. [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
+Testes e qualidade do código:
+1. [isort](https://pycqa.github.io/isort/)
+2. [black](https://black.readthedocs.io/en/stable/)
+3. [flake8](https://flake8.pycqa.org/en/latest/)
+4. [flask-debugtoolbar](https://flask-debugtoolbar.readthedocs.io/en/latest/)
+5. [flask-shell-ipython](https://pypi.org/project/flask-shell-ipython/)
+6. [pytest](https://docs.pytest.org/en/stable/index.html)
+7. [pytest-flask](https://pytest-flask.readthedocs.io/en/latest/)
+
 ## Licença
 
 Este projeto é licenciado sobre a licença MIT - veja [LICENSE](https://github.com/lipegomes/curso-flask-codeshow/blob/main/LICENSE) para mais informações.

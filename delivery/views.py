@@ -11,4 +11,7 @@ def init_app(app: Flask):
 
     @app.route("/sobre")  # Decorator para definir a rota para "/sobre"
     def sobre():
-        return "<h1>Somos uma startup de delivery com foco em atender pequenos e médios empreendimentos.</h1>"
+        return (
+            "<h1>Somos uma startup de delivery com foco em atender pequenos"
+            "e médios empreendimentos.</h1>"
+        )
