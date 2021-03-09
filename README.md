@@ -42,6 +42,13 @@ set FLASK_ENV=development
 flask run
 ```
 
+
+## Realizar testes:
+
+```sh
+FLASK_ENV=test pytest tests/ -v --cov=delivery
+```
+
 ## Ferramentas utilizadas:
 
 Ambiente virtual:
