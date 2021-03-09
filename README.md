@@ -58,6 +58,11 @@ Testes e qualidade do código:
 5. [flask-shell-ipython](https://pypi.org/project/flask-shell-ipython/)
 6. [pytest](https://docs.pytest.org/en/stable/index.html)
 7. [pytest-flask](https://pytest-flask.readthedocs.io/en/latest/)
+8. [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/index.html)
+
+Deploy:
+1. [git](https://git-scm.com/)
+2. [pythonanywhere](https://www.pythonanywhere.com)
 
 ## Licença
 
