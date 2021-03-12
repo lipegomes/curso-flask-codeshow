@@ -1,5 +1,9 @@
 # curso-flask-codeshow
 
+[![codecov](https://codecov.io/gh/lipegomes/curso-flask-codeshow/branch/main/graph/badge.svg?token=DJ04VUD1GV)](https://codecov.io/gh/lipegomes/curso-flask-codeshow)
+[![Updates](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/shield.svg)](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/)
+[![Python 3](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/python-3-shield.svg)](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/)
+
 Código desenvolvido durante o curso de desenvolvimento web com o webframework [Flask](https://flask.palletsprojects.com/en/1.1.x/) para [Python](https://www.python.org/) do [CodeShow](https://www.youtube.com/user/brunovegan).
 
 Link para o curso:
@@ -70,6 +74,13 @@ Deploy:
 1. [git](https://git-scm.com/)
 2. [pythonanywhere](https://www.pythonanywhere.com)
 3. [GithubActions](https://github.com/features/actions)
+
+Cobertura de testes:
+1. [Codecov](https://app.codecov.io/)
+
+Gestão da atualização de dependências:
+
+1. [PyUp](https://pyup.io)
 
 ## Licença
 
