@@ -31,4 +31,3 @@ jobs:
     - name: Run tests
       run: |
         make test
-        pytest --cov=delivery
