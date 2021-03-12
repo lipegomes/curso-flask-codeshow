@@ -37,4 +37,3 @@ jobs:
         coverage run -m pytest --cov=delivery tests/ 
     - name: Upload Coverage to Codecov
       uses: codecov/codecov-action@v1
-      with:
