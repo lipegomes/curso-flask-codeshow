@@ -1,5 +1,6 @@
 # curso-flask-codeshow
 
+![pull_request](https://github.com/lipegomes/curso-flask-codeshow/actions/workflows/python-app.yml/badge.svg)
 [![codecov](https://codecov.io/gh/lipegomes/curso-flask-codeshow/branch/main/graph/badge.svg?token=DJ04VUD1GV)](https://codecov.io/gh/lipegomes/curso-flask-codeshow)
 [![Updates](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/shield.svg)](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/)
 [![Python 3](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/python-3-shield.svg)](https://pyup.io/repos/github/lipegomes/curso-flask-codeshow/)
