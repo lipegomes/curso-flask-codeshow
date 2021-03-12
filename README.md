@@ -42,6 +42,12 @@ set FLASK_ENV=development
 flask run
 ```
 
+## Realizar testes:
+
+```sh
+pytest tests/ -v --cov=delivery
+```
+
 ## Ferramentas utilizadas:
 
 Ambiente virtual:
@@ -49,6 +55,21 @@ Ambiente virtual:
 
 Framework:
 1. [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+
+Testes e qualidade do código:
+1. [isort](https://pycqa.github.io/isort/)
+2. [black](https://black.readthedocs.io/en/stable/)
+3. [flake8](https://flake8.pycqa.org/en/latest/)
+4. [flask-debugtoolbar](https://flask-debugtoolbar.readthedocs.io/en/latest/)
+5. [flask-shell-ipython](https://pypi.org/project/flask-shell-ipython/)
+6. [pytest](https://docs.pytest.org/en/stable/index.html)
+7. [pytest-flask](https://pytest-flask.readthedocs.io/en/latest/)
+8. [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/index.html)
+
+Deploy:
+1. [git](https://git-scm.com/)
+2. [pythonanywhere](https://www.pythonanywhere.com)
+3. [GithubActions](https://github.com/features/actions)
 
 ## Licença
 
