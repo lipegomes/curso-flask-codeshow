@@ -42,11 +42,10 @@ set FLASK_ENV=development
 flask run
 ```
 
-
 ## Realizar testes:
 
 ```sh
-FLASK_ENV=test pytest tests/ -v --cov=delivery
+pytest tests/ -v --cov=delivery
 ```
 
 ## Ferramentas utilizadas:
@@ -70,6 +69,7 @@ Testes e qualidade do código:
 Deploy:
 1. [git](https://git-scm.com/)
 2. [pythonanywhere](https://www.pythonanywhere.com)
+3. [GithubActions](https://github.com/features/actions)
 
 ## Licença
 
