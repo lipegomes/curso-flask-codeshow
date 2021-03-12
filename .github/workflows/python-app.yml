@@ -5,9 +5,9 @@ name: Python application
 defaults:
   run:
     shell: bash
-    working-directory: ./delivery
-
+    working-directory: ./
 on:
+
   push:
     branches: [ main ]
   pull_request:
