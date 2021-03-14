@@ -58,8 +58,9 @@ pytest tests/ -v --cov=delivery
 Ambiente virtual:
 1. [VirtualEnv](https://virtualenv.pypa.io/en/latest/)
 
-Framework:
+Frameworks:
 1. [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+2. [Bulma](https://bulma.io/)
 
 Testes e qualidade do código:
 1. [isort](https://pycqa.github.io/isort/)
