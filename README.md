@@ -63,9 +63,11 @@ Frameworks:
 2. [Bulma](https://bulma.io/)
 
 Template engine:
+
 1.[Jinja](https://jinja.palletsprojects.com/en/2.11.x/templates/)
 
 Testes e qualidade do código:
+
 1. [isort](https://pycqa.github.io/isort/)
 2. [black](https://black.readthedocs.io/en/stable/)
 3. [flake8](https://flake8.pycqa.org/en/latest/)
