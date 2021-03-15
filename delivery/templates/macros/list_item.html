@@ -1,36 +1,38 @@
 {% macro cards(items) %}
-    {% for item in items %}
-    <div class="column">
-        <!-- init cards -->
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                </figure>
+{% for item in items %}
+<div class="column">
+    <!-- init cards -->
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-4by3">
+                <img src="https://images.unsplash.com/photo-1589459985166-966c72e767d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                    alt="Placeholder image">
+            </figure>
+        </div>
+        <div class="card-content">
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                        <img src="http://st2.depositphotos.com/4410397/7702/v/450/depositphotos_77025943-stock-illustration-pie-icon.jpg"
+                            alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">Hot Pies</p>
+                    <p class="subtitle is-6">@hotpies</p>
+                </div>
             </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-48x48">
-                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4">John Smith</p>
-                        <p class="subtitle is-6">@johnsmith</p>
-                    </div>
-                </div>
 
-                <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                </div>
+            <div class="content">
+                For 50 years offering the best sweet and savory pies in the region, come visit us and fall in love with
+                the quality of our pies and get 10% discount on your purchase.. <a>@hotpies</a>.
+                <a href="#">#delicioustaste</a> <a href="#">#50years</a>
+                <br>
+                <time datetime="2021-03-15">10:32 PM - 15 Mar 2021</time>
             </div>
         </div>
-        <!-- end cards -->
     </div>
-    {% endfor %}
+    <!-- end cards -->
+</div>
+{% endfor %}
 {% endmacro %}
