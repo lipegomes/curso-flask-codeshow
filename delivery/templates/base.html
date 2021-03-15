@@ -4,7 +4,7 @@
     <head>
         {% block head %}
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, startial-scale=1" />
         <title>Hello Bulma!</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
         {% endblock head %}
@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <!-- inti navbar -->
+        <!-- start navbar -->
         {% block nav %}
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -67,20 +67,20 @@
         {% endblock nav %}
         <!-- end navbar -->
 
-        <!-- init hero -->
+        <!-- start hero -->
         {% block hero %}{% endblock hero %}
         <!-- end hero -->
 
-        <!-- init container -->
+        <!-- start container -->
         <section class="section">
-            <div class="container">
-                <!-- init columns -->
+            <div class="container is-fluid">
+                <!-- start columns -->
                 {% block main %}{% endblock main %}
                 <!-- end columns -->
             </div>
         </section>
         <!-- end container -->
-        <!-- init footer -->
+        <!-- start footer -->
         {% block footer %}
         <footer class="footer">
             <div class="content has-text-centered">
